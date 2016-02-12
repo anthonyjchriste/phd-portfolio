@@ -1,58 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>PhD Portfolio</title>
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<!-- Always shows a header, even in smaller screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-            <!-- Title -->
-            <span class="mdl-layout-title">Anthony Christe's PhD Portfolio</span>
-            <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer"></div>
-            <!-- Navigation. We hide it in small screens. -->
-            <nav class="mdl-navigation mdl-layout--large-screen-only">
-                <a class="mdl-navigation__link" href="mailto://anthony.christe@gmail.com">anthony.christe@gmail.com</a>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/portfolio.css"/>
 
-            </nav>
-        </div>
-    </header>
-    <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Porfolio Navigation</span>
-        <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Statement of Purpose</a>
-            <a class="mdl-navigation__link" href="">Evidence of Core Competency</a>
-            <a class="mdl-navigation__link" href="">Evidence of Scholarly Ability</a>
-            <a class="mdl-navigation__link" href="">Evidence of Professional Capacity</a>
-        </nav>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+
+<body>
+<nav class="green darken-4">
+    <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo">Portfolio</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
     </div>
-    <div class="demo-ribbon"></div>
-    <main class="demo-main mdl-layout__content">
-        <div class="demo-container mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-                <div class="demo-crumbs mdl-color-text--grey-500">
-                    Anthony Christe &gt; PhD Portfolio &gt; Statement of Purpose
+</nav>
+
+<div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="center">
+                        <img class="circle" src="images/headshot.jpg">
+                        <p class="promo-caption white-text">Anthony J. Christe</p>
+                    </div>
+
+                    <div class="card-action">
+                        <a href="#">About Me</a>
+                    </div>
                 </div>
-                <h3>Statement of Purpose</h3>
-                <p>
-                    <i>Can be found in PDF format at <a href="#">TODO</a></i>
-                </p>
-                <p>
-                    Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-                </p>
-                <p>
-                    Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-                </p>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Education</span>
+                        <p>
+                            <i class="tiny material-icons">class</i> B.S. Comp. Sci. 2011, PA
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">class</i> M.S. Comp. Sci. 2014, UH
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">class</i> Began PhD. ICS 2014, UH
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Education Details<i class="material-icons right">close</i></span>
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons">class</i>B.S. 2011
+                                </div>
+                                <div class="collapsible-body">
+                                    <p>B.S. Computer Science, Slippery Rock University of Pennsylvania, PA, 2011</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons">class</i>M.S. 2014
+                                </div>
+                                <div class="collapsible-body">
+                                    <p>M.S. Computer Science, University of Hawaii at Manoa, HI, 2011</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons">class</i>Started PhD. 2014
+                                </div>
+                                <div class="collapsible-body">
+                                    <p>Admitted to PhD program at the Universtiy of Hawaii at Manoa, HI, 2014</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="activator">Full Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Skills</span>
+                        <p>
+                            <i class="tiny material-icons">done</i> Distributed Sensor Networks
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">done</i> Distributed Computing
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">done</i> Full Stack Web Development
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">done</i> Framework Design
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">done</i> Linux Systems
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">done_all</i> Java, Python, Scala, ... and more
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Full Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Links</span>
+                        <p>
+                            <i class="tiny material-icons">email</i> anthony.christe@gmail.com
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">work</i> CV
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
         </div>
-</div>
-        </main>
+
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Progress</span>
+                        <p></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Core Competencies</span>
+                        <p>
+                            <i class="tiny material-icons">done</i> M.S. Degree Certificate: Filed with Department
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">done</i> Passed Qualifying Exam: Details and Form 1 with Grad. Chair
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Professional Capacities</span>
+                        <p>
+                            <i class="tiny material-icons">done</i> TA ICS 211 - 5 semesters
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">done</i> RA OPQ - 1 year
+                        </p>
+                        <p>
+                            <i class="tiny material-icons">done</i> RA ISLA - 2 years
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Project 3</span>
+                        <p></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row">
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Writings / Scholarly Ability</span>
+                        <p></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">S.O.P</span>
+                        <p></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Literature Review</span>
+                        <p></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card green darken-4 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Conference Publications</span>
+                        <p></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/portfolio.js"></script>
 </body>
 </html>
